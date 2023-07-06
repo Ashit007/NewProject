@@ -46,6 +46,7 @@ public class Employee_Login_Functioality extends Base {
 	public void verify_i_am_in_my_home_page() {
 	    String s = getElementText(By.xpath("//h2[2]"));
 	    assertEquals("Welcome Test", s);
+	    System.out.println(s);
 	}
 
 }
